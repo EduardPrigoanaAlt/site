@@ -1,5 +1,5 @@
 User-agent: *
-Disallow: /misc/
+Disallow: /maintenance/
 
 # TOTAL COPYRIGHT DEATH
 # IP VIOLATION SCANNERS GTFO
