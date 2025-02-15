@@ -6,4 +6,15 @@ body {
     font-family: Arial, sans-serif
 }
 
+
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: white;
+        color: black
+    }
+    .logo {
+        filter: invert(1)
+    }
+}
+
 a {color: #05d5ff}
