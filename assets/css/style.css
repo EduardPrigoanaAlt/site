@@ -6,6 +6,7 @@ body {
     font-family: Arial, sans-serif
 }
 
+a {color: #05d5ff}
 
 @media (prefers-color-scheme: light) {
     body {
@@ -15,6 +16,5 @@ body {
     .logo {
         filter: invert(1)
     }
+    a {color: #0066cc}
 }
-
-a {color: #05d5ff}
