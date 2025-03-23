@@ -1,0 +1,20 @@
+body {
+    max-width: 1000px;
+    margin: 2em auto;
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif
+}
+
+a {color: #05d5ff}
+
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: white;
+        color: black
+    }
+    .logo {
+        filter: invert(1)
+    }
+    a {color: #0066cc}
+}
